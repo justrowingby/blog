@@ -1,21 +1,21 @@
 ---
-title: "Python Setup"
+title: "Python Setup for MacOS"
 date: 2019-09-03T15:03:43-05:00
 draft: true
+summary: "This is how to get up and running into my python setup, all in one place for future reference and anyone else who wants to see it"
 ---
 
-#Python Setup for MacOS
 This assumes homebrew is installed.
 ```
 brew install python
 ```
 
-##Cython:
+Cython:
 ```
 pip install cython
 ```
 
-##Scientific Computing:
+Scientific Computing:
 ```
 pip install numpy
 pip install numba
@@ -25,7 +25,8 @@ pip install pandas
 pip install pillow
 ```
 
-##Cartopy:
+Cartopy:
+
 First, let's get proj@5.2.0
 You want this version to avoid throwing errors about an API that's deprecated in later releases:
 ```
@@ -46,7 +47,7 @@ pip install pyshp
 pip install Cartopy
 ```
 
-##OpenCL:
+OpenCL:
 ```
 python -m pip install pybind11
 pip install pyopencl
