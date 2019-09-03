@@ -1,7 +1,6 @@
 ---
 title: "Python Setup for MacOS"
 date: 2019-09-03T15:03:43-05:00
-draft: true
 summary: "This is how to get up and running into my python setup, all in one place for future reference and anyone else who wants to see it"
 ---
 
