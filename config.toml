@@ -1,4 +1,4 @@
-baseURL = "justrowingby.github.io"
+baseURL = "/"
 languageCode = "en-us"
 title = "justrowingby"
 theme = "solar-theme-hugo"
