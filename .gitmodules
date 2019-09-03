@@ -1,3 +1,7 @@
 [submodule "themes/solar-theme-hugo"]
 	path = themes/solar-theme-hugo
 	url = https://github.com/bake/solar-theme-hugo.git
+[submodule "public"]
+	path = public
+	url = git@github.com:justrowingby/justrowingby.github.io.git
+	branch = master
