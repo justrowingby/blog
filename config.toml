@@ -3,3 +3,19 @@ languageCode = "en-us"
 title = "justrowingby"
 theme = "hugo-xmin"
 
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[params]
+    description = "A website built through Hugo and blogdown."
+    footer = "&copy; [Rowan Emma](https://yihui.name) | [Github](https://github.com/justrowingby) | [Twitter](https://twitter.com/justrowingby)"
