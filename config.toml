@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "justrowingby"
 theme = "hugo-xmin"
 
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -18,4 +22,4 @@ theme = "hugo-xmin"
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [Rowan Emma](https://yihui.name) | [Github](https://github.com/justrowingby) | [Twitter](https://twitter.com/justrowingby)"
+    footer = "&copy; Rowan Emma Switzer | [Github](https://github.com/justrowingby) | [Twitter](https://twitter.com/justrowingby)"
